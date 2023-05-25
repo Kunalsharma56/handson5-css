@@ -46,6 +46,9 @@ h1{
 /* text-align: center; */
 font-size: 110px;
 }
+h3{
+    color: white;
+}
 p{
     color: white;
     font-size: 15px;
@@ -88,10 +91,11 @@ left: 700px;
 }
 .box6{
     position: relative;
-    color: black;
+    color:white;
     top: -240px;
     left: 10px;
     height: 20px;
+    font-weight: bold;
 }
 .box6:hover{
     transform: translateY(-10px);
@@ -163,7 +167,7 @@ left: 700px;
         gap: 60px; */
         /* position:absolute;  */
         top: 390px;
-        /* left: 15px; */
+        left: 15px;
         }
         .box4{
             /* height: 250px; */
