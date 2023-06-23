@@ -105,92 +105,57 @@ left: 700px;
 @media only screen and (min-width:800px) and (max-width:1200px)
     {
         body{
-            /* background-image: url(./shara\ desert.jpg); */
             background-repeat: repeat;
-            /* background-size: cover; */
-            /* background-repeat: repeat-y; */
-            /* background-size: contain; */
         }
         .box{
-            /* height: 50px;  */
             left: 26px;
-             /* position: absolute; */
-            /* top:20px; */
         }
-        .box1{
-            /* loat: r; */
-        /* display: inline-block; */
-        /* position: relative; */
-        /* top: 0px; */
-        /* left: 94%; */
-        /* padding: 15px; */
-        /* margin: 15px; */
-        /* font-size: 20px; */
+        .box1{ 
         left: 300px;
-        /* color: white; */
         }
-        /* .box2{
-            float: right;
-            position: absolute;
-            top: 30px;
-            left: 90%;
-        } */
         .container1{
-            /* position: absolute; */
             top: 100px;
-            /* left: 90px; */
         }
-        /* h1{
-            color: white;
-        /* text-align: center; */
-        /* font-size: 110px; */
-        /* } */ 
-        /* p{
-            color: white;
-            font-size: 15px;
-        } */
-        /* .box3{
-            font-size: 20px;
-        background-color: white;
-        border: ;
-        border-radius: 25px;
-        text-align: center;
-        position: relative;
-        height: 50px;
-        width:190px;
-        } */
          .container2{
-            /* display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-        gap: 60px; */
-        /* position:absolute;  */
         top: 390px;
         left: 15px;
         }
         .box4{
-            /* height: 250px; */
-            width: 595px;
-            /* border-radius: 30px; */
+            width: 595px; 
         }
-        /* .box5{
-            color: white;
-        } */
-        /* .box1:hover{
-            color: red;
-        }
-        .box4:hover{
-            transform: translateY(-10px);
-            transition: 2s all;
-            box-shadow: 2px 2px 2px grey;
-        } */
-        /* .box6{
-            position: relative;
-            color: black;
-            top: -240px;
-            left: 10px;
-            height: 20px;
-        } */
-
+       
     }
+  @media only screen and (min-width:340px) and (max-width:600px){
+        body{   
+            background-repeat: repeat;  
+        }
+        .box{
+            left: 26px;
+        }
+        .box1{  
+        top: 20px;
+        margin: 0px;
+        font-size: 15px;
+        left:130px;
+        }
+        .container1{
+            top: 100px;
+            left: 5px;
+        }
+        h1{
+            color: white;
+        font-size: 70px;
+        } 
+        p{
+            color: white;
+            font-size: 18px;
+        }
+         .container2{
+        top: 390px;
+        left: 15px;
+        }
+        .box4{
+            width: 300px;
+        }
+    }
+
