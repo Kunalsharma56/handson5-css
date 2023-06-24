@@ -132,11 +132,12 @@ left: 700px;
         .box{
             left: 26px;
         }
-        .box1{  
+        .box1{ 
+        display:inline;
         top: 20px;
         margin: 0px;
         font-size: 15px;
-        left:130px;
+        left:300px;
         }
         .container1{
             top: 100px;
